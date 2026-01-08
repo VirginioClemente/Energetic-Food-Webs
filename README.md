@@ -6,7 +6,7 @@ and analyse the associated population dynamics and stability properties.
 The code accompanies the paper:
 
 > **G. V. Clemente et al.**  
-> *Maximum entropy networks predict fluctuations and stability of food web energetics* :contentReference[oaicite:0]{index=0}
+> *Maximum entropy networks predict fluctuations and stability of food web energetics* 
 
 The notebooks and scripts here implement the mass–balance energetic food-web
 model and the dynamical analysis used in the paper, including the computation of
