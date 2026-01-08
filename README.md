@@ -38,7 +38,4 @@ entropy, resilience, reactivity and fluctuation–response relations.
     perturbations,
   - control vs drought (C vs P) analyses.
 
-(Additional data files / Excel sheets are expected in the same structure used in
-the paper.)
-
 ---
