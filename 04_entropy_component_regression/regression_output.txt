@@ -1,0 +1,23 @@
+
+=== Full models: response ~ S_Ftot + S_het ===
+       Dep. Var.  Intercept included  n_obs  S_Ftot_coef  S_Ftot_p  S_het_coef  S_het_p        BIC
+|Re(lambda_max)|                True     59    -0.293314  0.018290    0.456590 0.000378 164.185623
+|Re(lambda_max)|               False     59    -0.293314  0.017273    0.456590 0.000334 160.108086
+      Reactivity                True     59    -0.393085  0.002307    0.325614 0.010567 166.527528
+      Reactivity               False     59    -0.393085  0.002105    0.325614 0.009891 162.449990
+
+=== Models with S_full only: response ~ S_full ===
+       Dep. Var.  Intercept included  n_obs  S_full_coef  S_full_p        BIC
+|Re(lambda_max)|                True     59     0.415603  0.001062 164.402293
+|Re(lambda_max)|               False     59     0.415603  0.000959 160.324755
+      Reactivity                True     59     0.442716  0.000446 162.718804
+      Reactivity               False     59     0.442716  0.000397 158.641266
+
+=== BIC comparison (full model vs S_full only) ===
+       Dep. Var.  Intercept included  BIC_S_Ftot_plus_S_het  BIC_S_full_only  delta_BIC_full_minus_sfull
+|Re(lambda_max)|                True             164.185623       164.402293                   -0.216669
+|Re(lambda_max)|               False             160.108086       160.324755                   -0.216669
+      Reactivity                True             166.527528       162.718804                    3.808724
+      Reactivity               False             162.449990       158.641266                    3.808724
+
+Section 04 completed.
